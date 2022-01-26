@@ -1,0 +1,25 @@
+body {
+    background-color: green;
+}
+
+#card-image {
+    width: 800px;
+    height: auto;
+}
+
+h1{
+    font-size: 4em;
+    color: red;
+}
+
+h2 {
+    font-size: 2em;
+    color: brown;
+}
+
+h4{
+    font-size: 2em;
+    color: black;
+}
+
+
