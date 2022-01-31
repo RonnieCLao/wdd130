@@ -1,25 +1,122 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto; 
+}
+
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+#hero-msg h1 {
+    text-align: center;
+}
+
+#hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
 body {
-    background-color: green;
+    background-color: beige;
 }
 
-#card-image {
-    width: 800px;
-    height: auto;
+header {
+    background-color: cadetblue;
 }
 
-h1{
-    font-size: 4em;
-    color: red;
-}
-
-h2 {
-    font-size: 2em;
-    color: brown;
-}
-
-h4{
-    font-size: 2em;
+nav a:hover {
+    background-color: blue;
     color: black;
 }
 
+.book {
+    background-color: lightgreen;
+    color: black;
+    text-decoration: none;
+}
 
+.join {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.book:hover {
+    background-color: blue;
+    color: black;
+}
+
+.join:hover {
+    background-color: blue;
+    color: black;
+}
+
+#background {
+    background-color: gray;
+}
+
+.msg {
+    background-color: honeydew;
+}
+
+.msg h2 {
+    color: black;
+}
+
+.msg p {
+    color: black;
+}
+
+footer {
+    background-color: lavender;
+}
+
+footer h3 {
+    color: black;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+}
+
+.home-title {
+    color: black;
+}
+
+h4 {
+    color: black;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
