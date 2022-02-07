@@ -155,10 +155,21 @@ h4 {
     width: 100%;
 }
 
-.river-cards, .camping-cards, .rapids-cards {
-    margin-top: 200px 0;
+.river-cards, .camping-cards {
+    margin-top: 200px;
+    margin-bottom: 0;
+}
+
+.rapids-cards {
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .card-img {
     border: 10px solid black;
+}
+
+.mountians {
+    padding-top: 100px;
+    padding-bottom: 200px;
 }
