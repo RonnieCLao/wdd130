@@ -55,7 +55,8 @@ h2 {
 header {
     background-color: cadetblue;
     display: grid;
-    grid-template: 150px auto;
+    grid-template-columns: 150px auto;
+
 }
 
 nav {
@@ -222,7 +223,7 @@ h4 {
 }
 
 .card-img:hover {
-    opacity: -6;
+    opacity: .6;
     transform: scale(1.1);
 }
 
