@@ -240,6 +240,104 @@ h4 {
     display: grid;  
     grid-template-columns: repeat(10, 1fr);
 }
+/* ********************* */
+/* Start of review page css */
+/* ******************* */
+
+
+#main-review {
+    display: grid;
+    background-color: darkgray;
+}
+
+p {
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+}
+
+.top-img {
+    width: 100%;
+    height: 650px;
+}
+
+.review-1 {
+    padding-bottom: 100px;
+}
+
+.review-1 p:nth-of-type(1) {
+    text-align: left;
+    font-size: 2em;
+}
+
+.review-2 p:nth-of-type(1) {
+    text-align: right;
+    font-size: 2em;
+}
+
+.review-3 p:nth-of-type(1) {
+    text-align: left;
+    font-size: 2em;
+}
+
+.review-2 {
+    padding-bottom: 100px;
+}
+
+.review-3 {
+    padding-bottom: 100px;
+}
+
+.review-para-1 {
+    background-color: lightblue;
+}
+
+.review-1 img {
+    float: left;
+    width: 200px;
+    height: 225px;
+    padding-right: 10px;
+}
+
+.review-2 img {
+    float: right;
+    width: 200px;
+    height: 225px;
+    padding-left: 10px;
+}
+
+.review-3 img {
+    float: left;
+    width: 200px;
+    height: 225px;
+    padding-right: 10px;
+}
+
+#background-2 {
+    display: grid;
+    background-color: gray;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+.review-river {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 600px;
+    grid-area: 1/2/4/4;
+    box-shadow: 5px 5px 10px black;
+}
+
+.msg-2 {
+    background-color: honeydew;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px gray;
+    text-align: center;
+}
+
+.msg-2 p:nth-of-type(1) {
+    text-align: center;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
