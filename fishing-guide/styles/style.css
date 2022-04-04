@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab&display=swap');
 
-#page-content {
+.page-content {
     max-width: 1600px;
     margin: 0 auto;
     background-color: beige;
