@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab&display=swap');
 
-.page-content {
+/* .page-content {
     max-width: 1600px;
     margin: 0 auto;
     background-color: beige;
-}
+} */
 
 body {
     background-color: #c08552;
@@ -12,6 +12,9 @@ body {
     font-size: 32px;
     padding: 0;
     margin: 0;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: beige;
 }
 
 nav a {
