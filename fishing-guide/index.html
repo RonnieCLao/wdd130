@@ -10,117 +10,118 @@
 
 <body >
     <div class="page-content" >
-    <header>
-        <img class="home-logo" src="images/fishing-logo.png" alt="Page Logo">
+        <header>
+            <img class="home-logo" src="images/fishing-logo.png" alt="Page Logo">
+            
+            <nav class="left-side">
+                <a href="index.html">Home</a>
+                <a href="fly-fishing.html">Flyfishing</a>
+            </nav>
+
+            <nav class="right-side">
+                <a href="tackle-fishing.html">Tacklefishing</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
         
-        <nav class="left-side">
-            <a href="index.html">Home</a>
-            <a href="fly-fishing.html">Flyfishing</a>
-        </nav>
-
-        <nav class="right-side">
-            <a href="tackle-fishing.html">Tacklefishing</a>
-            <a href="#">Contact</a>
-        </nav>
-
-    </header>
-    <div class="home-grid">
-        <h1>Welcome to The Snake River and Henry's Fork!</h1>
-        <!-- <img class="snake-river" src="images/henry-fork.jpg" alt="Snake-River"> -->
+        <div class="home-grid">
+            <h1>Welcome to The Snake River and Henry's Fork!</h1>
+            <!-- <img class="snake-river" src="images/henry-fork.jpg" alt="Snake-River"> -->
 
 
-        <div class="slideshow-container">
+            <div class="slideshow-container">
 
-            <!-- Full-width images with number and caption text -->
-            <div class="mySlides fade">
-              <div class="numbertext">1 / 3</div>
-              <img src="images/henry-fork.jpg" style="width:100%">
-              <div class="text">Henry Fork</div>
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/henry-fork.jpg" style="width:100%">
+                <div class="text">Henry Fork</div>
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img class="snake-river" src="images/snake-river.jpg" style="width:100%">
+                <div class="text">Snake River</div>
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/yellow-stone.jpg" style="width:100%">
+                <div class="text">Yellow Stone</div>
+                </div>
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
-          
-            <div class="mySlides fade">
-              <div class="numbertext">2 / 3</div>
-              <img class="snake-river" src="images/snake-river.jpg" style="width:100%">
-              <div class="text">Snake River</div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
             </div>
-          
-            <div class="mySlides fade">
-              <div class="numbertext">3 / 3</div>
-              <img src="images/yellow-stone.jpg" style="width:100%">
-              <div class="text">Yellow Stone</div>
-            </div>
-          
-            <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-          </div>
-          <br>
-          
-          <!-- The dots/circles -->
-          <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-          </div>
 
+            </div>
+            <h2>This site is your guide to some of the best fishing eastern Idaho has to offer!</h2>
+            <p>The snake river and henry’s fork are known as the best trout fishing around the world. With an approximate of 5000 trout per a mile according to Idaho Fish and Game. The fishing couldn’t be any better. </p>
         </div>
-        <h2>This site is your guide to some of the best fishing eastern Idaho has to offer!</h2>
-        <p>The snake river and henry’s fork are known as the best trout fishing around the world. With an approximate of 5000 trout per a mile according to Idaho Fish and Game. The fishing couldn’t be any better. </p>
-    </div>
 
-    <main class="main-grid">
-        <div class="henry-fork">
-            <h2>Henry's fork</h2>
-            <img class="henry-river" src="images/snake-river.jpg" alt="Henry's-fork">
-            <p>Also known as the North Fork. Henry's fork was named after Andrew Henry, who first entered the Snake River plateau in 1810. He built Fort Henry on the upper Snake River, near modern St.</p>
+        <main class="main-grid">
+            <div class="henry-fork">
+                <h2>Henry's fork</h2>
+                <img class="henry-river" src="images/snake-river.jpg" alt="Henry's-fork">
+                <p>Also known as the North Fork. Henry's fork was named after Andrew Henry, who first entered the Snake River plateau in 1810. He built Fort Henry on the upper Snake River, near modern St.</p>
+            </div>
+        
+            <div id="target-species">
+                <h2>Target Species:</h2>
+                <section class="target-1">
+                    
+                    <img class="brown-trout" src="images/brown-trout.jpg" alt="brown trout">
+                    <p>Brown Trout</p>
+                </section>
+                <section class="target-2">
+                    <img class="brook-trout" src="images/brook-trout.jpg" alt="Brook trout">
+                    <p>Brook Trout</p>
+                </section>
+                <section class="target-3">
+                    <img class="rainbow-trout" src="images/rainbow-trout.JPG" alt="Rainbow trout">
+                    <p>Rainbow Trout</p>
+                </section>
+                <section class="target-4">
+                    <img class="cutthroat-trout" src="images/cutthrout-trout.JPG" alt="Cut throut trout">
+                    <p>Cutthroat Trout</p>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <h3> &copy; 2022 - Ronnie Lao</h3>
+                <h3><a href="site-plan.html">Site Plan</a></h3>
+                <h3><a href="contactus.html">Contact Us</a></h3>
+        </footer>
         </div>
+
+        <script>
     
-        <div id="target-species">
-            <h2>Target Species:</h2>
-            <section class="target-1">
-                
-                <img class="brown-trout" src="images/brown-trout.jpg" alt="brown trout">
-                <p>Brown Trout</p>
-            </section>
-            <section class="target-2">
-                <img class="brook-trout" src="images/brook-trout.jpg" alt="Brook trout">
-                <p>Brook Trout</p>
-            </section>
-            <section class="target-3">
-                <img class="rainbow-trout" src="images/rainbow-trout.JPG" alt="Rainbow trout">
-                <p>Rainbow Trout</p>
-            </section>
-            <section class="target-4">
-                <img class="cutthroat-trout" src="images/cutthrout-trout.JPG" alt="Cut throut trout">
-                <p>Cutthroat Trout</p>
-            </section>
-        </div>
-    </main>
+        let slideIndex = 0;
+        showSlides();
 
-    <footer>
-        <h3> &copy; 2022 - Ronnie Lao</h3>
-            <h3><a href="site-plan.html">Site Plan</a></h3>
-            <h3><a href="contactus.html">Contact Us</a></h3>
-    </footer>
+        function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 5000); // Change image every 5 seconds
+        }
+
+        </script>
     </div>
-
-    <script>
-   
-    let slideIndex = 0;
-    showSlides();
-
-    function showSlides() {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 5000); // Change image every 5 seconds
-    }
-
-    </script>
 </body>
 </html>
