@@ -97,7 +97,7 @@ h1 {
 
 .main-grid {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     padding: 50px;
 }
 
@@ -253,6 +253,12 @@ slide show css end */
 /* *************************************
 fly fishing css start: */
 
+.main-grid-2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr ;
+    padding: 50px;
+}
+
 #henry-lake {
     max-width: 100%;
     height: 400px;
@@ -363,7 +369,7 @@ Tackle fishing css start: */
     transform: scale(1.75)
 }
 
-.bottom{
+.bottom-2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: gray;
